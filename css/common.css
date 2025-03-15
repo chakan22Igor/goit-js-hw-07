@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+.body{
+  margin: 0 auto;
+  align-items: center;
+}
+.categories{
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  height: 888px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  border-radius: 8px;
+padding: 16px;
+width: 392px;
+list-style: none;
+background: #f6f6fe;
+margin-bottom: 24px;
+
+}
+.list-title{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item-list-item{
+list-style: none;
+  border: 1px solid #808080;
+border-radius: 4px;
+  width: 360px;
+height: 40px;
+margin-bottom: 8px;
+padding-left: 16px;
+padding-top: 8px;
+}
+.item-list:last-child{
+  margin-bottom:  0px;
+}
+.item-list{
+  padding: 0;
+}
+.name-enter{
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+.login-form{
+  padding: 24px;
+  width:408px ;
+  height: 256px; ;
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.login-form-input{
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+.btn{
+  border-radius: 8px;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+background: #4e75ff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+transition-duration: 1s;
+}
+.btn:hover{
+  background: #6c8cff;
+}
+.change-color{
+  color: #fff;
+  border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+background: #4e75ff;
+border: none;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+transition-duration: 1s;
+}
+.change-color:hover{
+  background: #6c8cff;
+}
+.widget{
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.controls{
+  border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+background: #f6f6fe;
+}
+.gallery{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img{
+
+}
+.bodyGallery{
+  width: 1440px;
+height: 848px;
+}
