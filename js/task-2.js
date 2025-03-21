@@ -1,4 +1,4 @@
-const container = document.querySelector('#gallery');
+const container = document.querySelector('.gallery');
 
 const images = [
   {
